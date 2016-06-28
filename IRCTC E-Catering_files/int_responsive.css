@@ -1,0 +1,193 @@
+/**large Tablet**/
+@media screen and (min-width:800px) and (max-width:1199px)
+{
+
+}
+
+
+/**landscape small tablet**/
+@media screen and (min-width:641px) and (max-width:799px)
+{
+body{margin:0; padding:0;}
+
+section{width:100%; border:0px solid #000;}
+section.maincenBody{width:100%; margin:0 auto;}
+
+.combobx{padding-left:0 0 0 50px; float:left; margin-left:75px;}
+#pnrdtl ul{margin:0; padding:0;}
+#pnrdtl ul li:first-child{padding:22px 0px 22px 0px }
+#pnrdtl ul li{width:98%; border-bottom:1px solid #f1f1f1; padding:12px 0 12px 2%; margin:0; direction:ltr; background-color:#fff; color:#666; font:14px arial; float:left; list-style:none; text-transform:uppercase}
+
+#leftcol{width:100%; border:0px solid #333; /*height:200px;*/ margin-top:10px;}
+#rightcol{width:70%; border:0px solid #ff0000; /*height:200px;*/ margin:10px auto;}
+
+.leftcol_contbox{width:100%; border:1px solid #e5e5e5; height:auto}
+.leftcol_head{background-color:#e5e5e5; font:bold 18px arial; padding:10px; color:#333;}
+.box_righticon{width:20px; height:20px border:1px solid #333; float:right}
+.venderimg{width:100px; float:left;}
+.venderimg img{width:100%;}
+.venderdtl{float:left; width:60%;}
+.venderdtl ul{ margin:5px 15px; padding:0;}
+.venderdtl ul li{font:12px arial; color:#333; list-style:none; padding:6px 0 6px 0; }
+.vndrbtn{float:right;  margin-right:20px; width:133px; height:47px;}
+/*.sbHolder{float:left; margin-left:75px; border:1px solid #ff0000;}*/
+
+.slectstn{font:14px arial; float:left; background:#e5e5e5 url(../images/train_icon.gif) no-repeat left; padding:16px 10px 15px 75px}
+.pnrdtls{padding:15px 1%; margin:0; background-color:#fff; color:#666; border-left:1px solid #e2e2e2; font:14px arial; float:left; list-style:none; text-transform:uppercase}	
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px)
+{
+body{margin:0; padding:0;}
+
+#headnavR{float:right; display:inline; width:auto; height:auto; border:0px solid #ff0000; margin:10px 0 10px 0;}
+#headnavR a{font-size:15px; color:#333; text-decoration:none; padding:0 10px; border-right:1px solid #fff; background:url(../images/white_px.png) repeat;}
+#headnavR a:first-child{border:none}
+#headnavR a:last-child{border:none}
+
+section{width:100%; border:0px solid #000;}
+section.maincenBody{width:100%; margin:0 auto;}
+
+.combobx{padding-left:0 0 0 50px; float:left; margin-left:75px;}
+#pnrdtl ul{margin:0; padding:0;}
+#pnrdtl ul li:first-child{padding:22px 0px 22px 0px }
+#pnrdtl ul li{width:98%; border-bottom:1px solid #f1f1f1; padding:12px 0 12px 2%; margin:0; direction:ltr; background-color:#fff; color:#666; font:14px arial; float:left; list-style:none; text-transform:uppercase}
+
+#leftcol{float:left; width:100%; border:0px solid #333; /*height:200px;*/ margin-top:10px;}
+#rightcol{float:left; width:100%; border:0px solid #ff0000; /*height:200px;*/ margin-top:10px;}
+#centersingcol{width:99%; border:0px solid #ff0000; /*height:200px;*/ margin:10px auto 0 auto;}
+#centersingcolbot{width:99%; border:0px solid #ff0000; background-color:#fff; /*height:200px;*/ margin:10px auto 0 auto;}
+
+.leftcol_contbox{width:100%; border:1px solid #e5e5e5; height:auto}
+.leftcol_head{background-color:#e5e5e5; font:bold 18px arial; padding:10px; color:#333;}
+.box_righticon{width:20px; height:20px border:1px solid #333; float:right}
+.venderimg{width:100px; float:left;}
+.venderimg img{width:100%;}
+.venderdtl{float:left; width:60%;}
+.venderdtl ul{ margin:5px 15px; padding:0;}
+.venderdtl ul li{font:12px arial; color:#333; list-style:none; padding:6px 0 6px 0; }
+.vndrbtn{float:right;   margin-bottom:10px; margin-right:20px; width:133px; height:47px;}
+
+.menuframe{width:97%; border:1px solid #e5e5e5; float:left; padding:5px; margin-top:10px;}
+.Rmenuframe{width:97%; border:1px solid #e5e5e5; float:left; background-color:#efefef; padding:5px; margin-top:10px;}
+
+.sbHolder{float:left; margin-left:75px; border:1px solid #ff0000;}
+.slectstn{font:14px arial; float:left; background:#e5e5e5 url(../images/train_icon.gif) no-repeat left; padding:16px 0; width:100%;}
+.pnrdtls{width:42%; margin:0; background-color:#fff; color:#333; border-bottom:1px solid #e2e2e2; font:14px arial; float:left; list-style:none; text-transform:uppercase}
+
+#pnrdtlMP{width:100%; background-color:#fff; margin:0 auto}
+.OPpnrdtls{padding:15px 0; width:33%; margin:0; background-color:#fff; color:#666; border-left:1px solid #e2e2e2; height:40px; border-bottom:1px solid #e2e2e2; font:12px arial; float:left; list-style:none; text-transform:uppercase; text-align:center; }
+.cantxt{font-weight:normal; font:11px arial; text-transform: capitalize; color:#ff0000;}
+.pnrdtlsMP{width:38%; margin:0; background-color:#fff; color:#666; border-bottom:1px solid #e2e2e2; font:14px arial; float:left; list-style:none; text-transform:uppercase}
+.pnrdtlsMP:first-child{border:none;  border-bottom:1px solid #e2e2e2;}
+
+.txtfldcol{padding:10px 0; text-align:center; margin:0; background-color:#fff; border-bottom:1px solid #e2e2e2; border-right:none; float:left; text-transform:uppercase; width:99%}
+.btnholder{width:99%; margin:10px auto; border:0px solid #333; text-align:center; float:left}
+
+.reodrbtn{background: -webkit-linear-gradient(#fd4973, #ff023d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fd4973, #ff023d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fd4973, #ff023d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fd4973, #ff023d); /* Standard syntax */
+  color:#fff; text-align:center; padding:10px 0; border-radius:5px; width:95%;  }
+  .reodrbtn a{color:#fff; text-decoration:none; font:18px arial;}
+  
+.procdbtn{background: -webkit-linear-gradient(#fd4973, #ff023d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fd4973, #ff023d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fd4973, #ff023d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fd4973, #ff023d); /* Standard syntax */
+  color:#fff; text-align:center; padding:10px 0; border-radius:5px; width:100%;}
+.procdbtn a{color:#fff; text-decoration:none; font:18px arial;}
+.dtltctfld{color:#666; font:12px arial; border:1px solid #e5e5e5; width:90%; padding:7px;}
+
+.pgbanklist{width:45%; margin-left:1%; margin-top:1%; float:left; border:1px solid #e5e5e5; padding:2% 1%; background-color:#fff; font:12px arial}
+
+.tabs a{padding:6px 0 0 0px; height:36px; width:19.6%; text-align:center; border-left:1px solid #ccc; font:bold 13px arial; color:#666666; display:inline; float:left; background: url(/eCatering/ecatering/images/payment-back-st.jpg) repeat-x; text-decoration:none;}
+.tabs a:focus{-moz-outline-style: none; border:0px;}
+.tabs a:active{outline: none;}
+}	
+
+
+@media screen and (min-width:321px) and (max-width:480px)
+{
+
+}
+
+
+@media screen and (min-width : 360px) and (max-width : 640px)
+{
+body{margin:0; padding:0;}
+
+#headnavR{float:right; display:inline; width:auto; height:auto; border:0px solid #ff0000; margin:10px 0 10px 0;}
+#headnavR a{font-size:15px; color:#333; text-decoration:none; padding:0 10px; border-right:1px solid #fff; background:url(../images/white_px.png) repeat;}
+#headnavR a:first-child{border:none}
+#headnavR a:last-child{border:none}
+
+section{width:100%; border:0px solid #000;}
+section.maincenBody{width:100%; margin:0 auto;}
+
+
+.sbHolder{float:left; margin-left:75px; border:1px solid #ff0000;}
+
+#pnrdtl ul{margin:0; padding:0;}
+#pnrdtl ul li:first-child{padding:22px 0px 22px 0px }
+#pnrdtl ul li{width:98%; border-bottom:1px solid #f1f1f1; padding:12px 0 12px 2%; margin:0; direction:ltr; background-color:#fff; color:#666; font:14px arial; float:left; list-style:none; text-transform:uppercase}
+
+#leftcol{float:left; width:100%; border:0px solid #333; /*height:200px;*/ margin-top:10px;}
+#rightcol{float:left; width:100%; border:0px solid #ff0000; /*height:200px;*/ margin-top:10px;}
+#centersingcol{width:99%; border:0px solid #ff0000; /*height:200px;*/ margin:10px auto 0 auto;}
+#centersingcolbot{width:99%; border:0px solid #ff0000; background-color:#fff; /*height:200px;*/ margin:10px auto 0 auto;}
+
+.leftcol_contbox{width:100%; border:1px solid #e5e5e5; height:auto}
+.leftcol_head{background-color:#e5e5e5; font:bold 18px arial; padding:10px; color:#333;}
+.box_righticon{width:20px; height:20px border:1px solid #333; float:right}
+.venderimg{width:100px; float:left;}
+.venderimg img{width:100%;}
+.venderdtl{float:left; width:60%;}
+.venderdtl ul{ margin:5px 15px; padding:0;}
+.venderdtl ul li{font:12px arial; color:#333; list-style:none; padding:6px 0 6px 0; }
+.vndrbtn{float:right;  margin-bottom:10px;  margin-right:20px; width:133px; height:47px;}
+
+.menuframe{width:97%; border:1px solid #e5e5e5; float:left; padding:5px; margin-top:10px;}
+.Rmenuframe{width:97%; border:1px solid #e5e5e5; float:left; background-color:#efefef; padding:5px; margin-top:10px;}
+
+.slectstn{font:14px arial; float:left; background:#e5e5e5 url(../images/train_icon.gif) no-repeat left; padding:16px 0; width:100%;}
+.pnrdtls{width:42%; margin:0; background-color:#fff; color:#333; border-bottom:1px solid #e2e2e2; font:14px arial; float:left; list-style:none; text-transform:uppercase}
+
+#pnrdtlMP{width:100%; background-color:#fff; margin:0 auto}
+.pnrdtlsMP{width:38%; margin:0; background-color:#fff; color:#666; border-bottom:1px solid #e2e2e2; font:14px arial; float:left; list-style:none; text-transform:uppercase}
+.pnrdtlsMP:first-child{border:none;  border-bottom:1px solid #e2e2e2;}
+
+.txtfldcol{padding:10px 0; text-align:center; margin:0; background-color:#fff; border-right:none; border-bottom:1px solid #e2e2e2; float:left; text-transform:uppercase; width:99%}
+.btnholder{width:99%; margin:10px auto; border:0px solid #333; text-align:center; float:left}
+
+.reodrbtn{background: -webkit-linear-gradient(#fd4973, #ff023d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fd4973, #ff023d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fd4973, #ff023d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fd4973, #ff023d); /* Standard syntax */
+  color:#fff; text-align:center; padding:10px 0; border-radius:5px; width:100%;  }
+  .reodrbtn a{color:#fff; text-decoration:none; font:18px arial;}
+  
+.procdbtn{
+background: -webkit-linear-gradient(#42bd0b, #5ce31f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#42bd0b, #5ce31f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#42bd0b, #5ce31f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#42bd0b, #5ce31f); background-color:#42bd0b; /* Standard*/
+  color:#fff; text-align:center; padding:10px 0; border-radius:5px; width:100%; }
+.procdbtn a{color:#fff; text-decoration:none; font:18px arial;}
+.dtltctfld{color:#666; font:12px arial; border:1px solid #e5e5e5; width:90%; padding:7px;}
+
+.pgbanklist{width:45%; margin-left:1%; margin-top:1%; float:left; border:1px solid #e5e5e5; padding:2% 1%; background-color:#fff; font:12px arial}
+
+.tabs a{padding:6px 0 0 0px; height:36px; width:19.7%; text-align:center; border-left:1px solid #ccc; font:bold 13px arial; color:#666666; display:inline; float:left; background: url(/eCatering/ecatering/images/payment-back-st.jpg) repeat-x; text-decoration:none;}
+.tabs a:focus{-moz-outline-style: none; border:0px;}
+.tabs a:active{outline: none;}
+
+}
+
+
+@media screen and (min-width:361px) and (max-width:640px)
+{
+
+}
+
